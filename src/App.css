@@ -1,0 +1,21 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #text {
+    white-space: nowrap; /* Yazının tek satırda kalmasını sağlar */
+    overflow: hidden; /* Taşan yazıyı gizler */
+    text-overflow: ellipsis; /* Taşan yazıyı '...' ile gösterir */
+  }
+  
+  
+}
